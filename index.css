@@ -1,0 +1,59 @@
+*,html,body,::before,::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    /* background-color: lightblue; */
+    width: 75vw;
+    height: 75vh;
+    padding: 20px;
+    border: 7px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 7px;
+    border: solid 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px;
+    border-radius: 5px;
+    justify-content: end;
+    position: absolute;
+    bottom: 20%;
+}
+body {
+    background-color: lightgray;
+}
+.author {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.authorName {
+    margin-left: 4px;
+}
+.quote {
+    margin: 25px;
+    text-align: center;
+    color: white;
+    
+}
+.author {
+    position: absolute;
+    bottom: 30%;
+}
